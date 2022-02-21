@@ -1,0 +1,33 @@
+#container
+{
+    border: 1px solid white;
+    display: flex;
+    height: 700px;
+}
+#main
+{
+    border: 1px solid black;
+    height: 500px;
+    width: 70%;
+}
+#sidebar
+{
+    border: 1px solid black;
+    height: 500px;
+    width: 30%;
+}
+#sidebar >div
+{
+    margin: 10px;
+}
+#main > div
+{
+    border: 1px solid black;
+    margin: 5px;
+    display: flex;
+}
+
+#main > div > div
+{
+    border: 1px solid red;
+}
